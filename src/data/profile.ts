@@ -32,7 +32,7 @@ export interface Profile {
 const provisionalUrl = (path: string) => `https://example.com/${path}`
 
 export const profile = {
-  name: '@seu.perfil',
+  name: '@wesleymiguelweb',
   avatarByTheme: {
     light: avatarLight,
     dark: avatarDark,
@@ -40,14 +40,14 @@ export const profile = {
   links: [
     { id: 'course-signup', label: 'Inscreva-se no Curso', url: provisionalUrl('inscreva-se-no-curso') },
     { id: 'ebook', label: 'Baixe meu e-book', url: provisionalUrl('e-book') },
-    { id: 'portfolio', label: 'Veja meu portfólio', url: provisionalUrl('portfolio') },
+    { id: 'portfolio', label: 'Veja meu portfólio no GitHub', url: 'https://github.com/wesleymiguelweb/' },
     { id: 'course', label: 'Conheça meu curso', url: provisionalUrl('curso') },
   ],
   socialLinks: [
-    { id: 'github', label: 'GitHub', url: provisionalUrl('github') },
+    { id: 'github', label: 'GitHub', url: 'https://github.com/wesleymiguelweb' },
     { id: 'instagram', label: 'Instagram', url: provisionalUrl('instagram') },
     { id: 'youtube', label: 'YouTube', url: provisionalUrl('youtube') },
     { id: 'linkedin', label: 'LinkedIn', url: provisionalUrl('linkedin') },
   ],
-  footer: 'Feito com ♥ pela Rocketseat',
+  footer: 'Feito pelo dev Wesley, conheça meu portfólio',
 } satisfies Profile

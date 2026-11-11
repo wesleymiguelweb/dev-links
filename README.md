@@ -62,9 +62,9 @@ src/
 
 ## Links provisórios
 
-Os destinos ainda não foram definidos no projeto de referência. Por isso, as URLs em
-`src/data/profile.ts` apontam para o domínio reservado `example.com` e estão comentadas
-como provisórias. Substitua cada valor pelos destinos reais antes de publicar.
+Os links de GitHub e portfólio já apontam para os endereços informados no perfil. Os
+demais destinos ainda não foram definidos e usam o domínio reservado `example.com` em
+`src/data/profile.ts`. Substitua esses valores antes de publicar o projeto.
 
 ## Temas e tokens
 
